@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
-  <head><script src="js/color-modes.js"></script>
+  <head><script src="../assets/js/color-modes.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +15,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -46,10 +46,10 @@
         width: 1.5rem;
         height: 100vh;
       }
-    .col
-      {
-        box-shadow: 0px 0px 10px 0px white;
-        cursor: pointer;
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
       }
 
       .nav-scroller {
@@ -94,47 +94,6 @@
       .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
       }
-      .portada
-      {
-         background-image: url('imgg/tu.jpg');
-        background-color: rgba(0, 0, 0,.6);
-        background-blend-mode: darken;
-        background-size: cover;
-        padding: 80px;
-       
-      }
-     .brii
-    {
-    
-      text-align: center;
-      padding: 10px;
-      border-radius: 28%;
-      height: 75px;
-      width: 75px;
-   
-    }
-     
-      .jenni
-    {
-      border-radius: 50%;
-      border-style: none;
-    }
-      .bb
-    {
-      color: white !important;
-    }
-      .loo
-    {
-      color: white;
-    }
- h1{
-     text-align: center;
-    }
-    .boo
-    {
-      text-decoration: none;
-    }
-
     </style>
 
     
@@ -215,7 +174,7 @@
     <div class="container">
       <a href="#" class="navbar-brand d-flex align-items-center">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-       
+        <strong>Album</strong>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -225,29 +184,18 @@
 </header>
 
 <main>
-  
 
-  <section class="py-5 text-center ">
- 
-    <div class="portada row py-lg-5">
-      <div class="row col-lg-6 col-md-8 mx-auto" >
-       
-        <div class="col-4">  <img src="imgg/jenn.jpg" width="170px" height="210px"  border="5" class="jenni"></div>
-        <div class="col-8" >
-        <p class=" bb lead text-body-secondary"><b>Soy jennifer diaz</b>
-         soy estudiante del cbtis 144 voy en sexto semestre tengo 17 años.</p> </div>
-      
-       <div>   
-       <div class="row justify-content-end">
-     <div class="row col-lg-3  col-md-8 "><a href="https://www.facebook.com/jenni.diazgordillo?mibextid=LQQJ4d"><img class="brii" src="imgg/fec.png" ></a></div>
-     <div class="row col-lg-3  col-md-8 "><a href="https://www.instagram.com/jenni.bg?igsh=MTJ1YTA0ZjJ1Z3J3OA%3D%3D&utm_source=qr"><img class="brii" src="imgg/im.png"></a></div>
-     <div class="row col-lg-3 col-md-8 "><a href="https://api.whatsapp.com/send?phone=9611939799"><img  class="brii" src="imgg/wh.png"></a></div>
-       </div>
-       </div>
-          
-      
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Jennifer Brillit Díaz Gordillo</h1>
+        <p class="lead text-body-secondary">.</p>
+        <p>
+          <a href="#" class="btn btn-primary my-2">Main call to action</a>
+          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        </p>
       </div>
-      </div>
+    </div>
   </section>
 
   <div class="album py-5 bg-body-tertiary">
@@ -256,18 +204,14 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
-            <img src="imgg/for.jpg" width="100%" height="320"></a>
-           
+            <img src="imgg/je.jpg" width="100%" height="320">
             <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
             
-            
-            
-            
-       <div class="card-body">
-              <p class="card-text">Grid de bootstrap</p>
+            <div class="card-body">
+              <p class="card-text">Ese dia fue mi bautizo y estaba con mi prima que aprecio mucho.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a class="boo" href="grid.html">Abrir</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
                 <small class="text-body-secondary">9 mins</small>
@@ -277,13 +221,13 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-           <img src="imgg/for.jpg"width="100%" height="335"></a>
+            <img src="imgg/ma.jpg"width="100%" height="335">
              <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text> 
             <div class="card-body">
-              <p class="card-text">Columnas horizontales</p>
+              <p class="card-text">Esa fue la primera vez que fui al mar que yo recuerde, fui con mi mama y fue un bonito viaje.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a class="boo" href="columnas_horizontales.html">Abrir</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
                 <small class="text-body-secondary">9 mins</small>
@@ -293,13 +237,13 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="imgg/for.jpg" width="100%" height="320"></a>
+            <img src="imgg/cu.jpg" width="100%" height="320">
            <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
             <div class="card-body">
-              <p class="card-text">Columnas verticales</p>
+              <p class="card-text">Aqui fue el cumpleaños de mi hermanita estaba cumpliendo apenas su primer año fue un bonito día.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a class="boo" href="columnas_verticales.html">Abrir</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
                 <small class="text-body-secondary">9 mins</small>
@@ -310,13 +254,13 @@
 
         <div class="col">
           <div class="card shadow-sm">
-          <img src="imgg/for.jpg" width="100%" height="320" ></a>
+            <img src="imgg/ce.jpg" >
            <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
             <div class="card-body">
-              <p class="card-text">Album de fotos</p>
+              <p class="card-text">Ese día se festejo mis 15 años y estaba muy feliz me la pasa muy bien.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a class="boo" href="col.html">Abrir</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
                 <small class="text-body-secondary">9 mins</small>
@@ -326,13 +270,13 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="imgg/for.jpg" width="100%" height="320">
+            <img src="imgg/ve.jpg" >
             <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
             <div class="card-body">
-              <p class="card-text">Utilidades de bootstrap</p>
+              <p class="card-text">Fuimos a Veracruz con mi madrina y mi abuelita y fue un gran viaje estuvo muy divertido.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a class="boo" href="utilidades.html">Abrir</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
                 <small class="text-body-secondary">9 mins</small>
@@ -342,13 +286,13 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="imgg/for.jpg" width="100%" height="320" >
+            <img src="imgg/yu.jpg" >
             <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
             <div class="card-body">
-              <p class="card-text">Responsivo</p>
+              <p class="card-text">Este fue un gran viaje ya que pude conocer Yucatán fuimos a celebrar el cumpleaños de mi abuelita y me me la pase muy bien en ese viaje.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a class="boo" href="responsivo.html">Abrir</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
                 <small class="text-body-secondary">9 mins</small>
@@ -417,7 +361,7 @@
     <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
   </div>
 </footer>
-<script src="js/bootstrap.bundle.min.js"></script>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
     </body>
 </html>
