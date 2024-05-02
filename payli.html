@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap5/css/bootstrap.min.css">
+	<script type="text/javascript" src="bootstrap5/js/bootstrap.min.js "></script>
+	<script src="https://kit.fontawesome.com/0f25780317.js" crossorigin="anonymous"></script>
+
+	<script src="js/jquery.js"></script> 
+		<script src="js/jquery.audioControls.min.js"></script> 
+		<script src="js/funciones.js"></script>
+</head>
+<style >
+	.botoncabecera
+	{
+		background: white ;
+	}
+	.botonn
+	{
+		background: #EAEDED ;
+	}
+	a
+	{
+
+text-decoration: none;
+color: black;
+	}
+</style>
+<body>
+<div class="container">
+
+	<section class="row">
+	<main class="col-lg-6">
+	<div class="row justify-content-between">
+		<div class="col-auto botoncabecera">
+			<div class="botones">
+				<i class="fa-solid fa-arrow-left"></i>
+			</div>
+		</div>
+		<div class="col-auto botoncabecera">
+			<p class="d-none d-md-none d-lg-block">reproduciendo ahora</p>
+			<p class="d-none d-md-block d-lg-none">ahora</p>
+		</div>
+
+		<div class="col-auto botoncabecera">
+			<div class="botones">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+
+		</div>
+
+	</div>
+	<div class="row text-center">
+		<div class="col">
+		<img src="img/blue.jpg" class="">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col text-center">
+			
+			<h1><span class="col-3 nomp3"></span></h1>
+			<span class="col-3 text-end audiotime" data-attr="timer"></span>
+
+		</div>
+	</div>
+
+	
+		<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  		<div class="progress-bar updateProgress"></div>
+	</div>
+	
+
+
+	<!--button class="btn btn-primary">bootstrap</button>
+	<i class="fa-solid fa-arrow-left"></i-->
+
+		<div class="row justify-content-center">
+		<div class="col-auto botoncabecera">
+			<div class="botones">
+				<i class="fa-solid fa-backward-step"></i>
+			</div>
+		</div>
+		<div class="col-auto botoncabecera">
+			<i class="fa-solid fa-pause"></i>		
+		</div>
+		<div class="col-auto botoncabecera">
+			<div class="botones">
+				<i class="fa-solid fa-forward-step"></i>
+			</div>
+		</div>
+	</div>
+</main>
+<aside class="col-lg-6 mt-5">
+		<ul class="list-group mt-5 playlist">
+ 	 <li class="list-group-item" data-src="musi/Lana Del Rey - Doin' Time.mp3">
+  	<a href="#">Lana Del Rey - Doin' Time</a>
+ 	 </li>
+
+ 		 <li class="list-group-item" data-src="musi/Lana Del Rey - Let The Light In.mp3">
+  		<a href="#"> Lana Del Rey - Let The Light In</a>
+  		</li>
+ 	 	<li class="list-group-item" data-src="musi/Lana Del Rey - West Coast.mp3">
+  		<a href="#">Lana Del Rey - West Coast</a>
+  		</li>
+  		<li class="list-group-item" data-src="musi/Lana Del Rey - Summertime Sadness.mp3">
+  		<a href="#">Lana Del Rey - Summertime Sadness</a>
+ 		 </li>
+ 		 <li class="list-group-item" data-src="musi/Lana Del Rey - Ultraviolence.mp3">
+  		<a href="#">Lana Del Rey - Ultraviolence</a>
+  	</li>
+	</ul>
+</aside>
+</section>
+
+</div>
+
+</body>
+</html>
